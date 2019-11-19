@@ -4,7 +4,7 @@ const request = require('request');
 const app = express()
 
 
-const apiKey = "bb48c0385b20af630048e3b862c48b0a";
+const apiKey = "yourkey";
 
 app.use(express.static('public'));
 app.use(bodyParser.urlencoded({ extended: true }));
